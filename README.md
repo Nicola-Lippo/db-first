@@ -20,7 +20,7 @@
 (attributi = MEDIUMINT, NOTNULL,) (no TINYINT perchè i km sono numeri piu grandi)
 
 *production_year = data
-(attributi = DATE, NOTNULL)
+(attributi = YEAR, NOTNULL)(solo anno)
 
 *description_car = string
 (attributi = TEXT, NOTNULL,)(text fino a 65535 caratteri)
